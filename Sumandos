@@ -1,0 +1,17 @@
+Suma de números
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main()
+{ float suma, a, b;
+cout<<"Ingrese a:"<<endl;
+cin>>a;
+cout<<"Ingrese b:"<<endl;
+cin>>b;
+suma=a+b;
+cout<<"Suma:"<<suma<<endl;
+getch();
+}
