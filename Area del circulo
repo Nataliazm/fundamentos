@@ -1,0 +1,13 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main()
+{ float area, r;
+cout<<"Ingrese radio:"<<endl;
+cin>>r;
+area=3.141516*(r*r);
+cout<<"Area:"<<area<<endl;
+getch();
+}
