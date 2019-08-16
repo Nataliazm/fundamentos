@@ -1,0 +1,15 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main()
+{ float area, a, b;
+cout<<"Ingrese lado 1:"<<endl;
+cin>>a;
+cout<<"Ingrese lado 2:"<<endl;
+cin>>b;
+area=a*b;
+cout<<"Area:"<<area<<endl;
+getch();
+}
