@@ -1,0 +1,18 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+void main()
+{
+	int i,n,factorial=1,num;
+	cout<<"Introduzca n:";
+	cin>>n;
+	for(i<=0;i=0;i++)
+		factorial=factorial*i;
+	cout<<"Factorial:"<<factorial;
+	getch();
+
+
+
+
+}
