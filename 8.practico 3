@@ -1,0 +1,43 @@
+ #include "stdafx.h"
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+
+int d,m;
+
+cout<<" Poner el dia y mes"<<endl;
+
+cin>>d>>m;
+
+if(m<3 && d<21)
+
+{cout<<"Verano";}
+
+else{if(m<5 && d<21)
+
+{cout<<"Otoño";}
+
+else {if(m<9 && d<21)
+
+{cout<<"Invierno";}
+
+else {if(m<12 && d<21)
+
+{cout<<"Primavera";}
+
+else{cout<<"Verano";}
+
+}
+
+}
+
+}
+
+system ("pause");
+
+return 0; 
