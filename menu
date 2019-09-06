@@ -1,0 +1,57 @@
+#include "stdafx.h"
+
+#include <iostream>
+
+#include "math.h"
+
+#include <math.h>
+
+#include <stdio.h>
+
+using namespace std;
+
+int main()
+
+{
+
+int h,hq,p,s;
+
+cout<<"Cantidad de hamburguesas";cin>>h;
+
+cout<<"Cantidad de hamburguesas con queso";cin>>hq;
+
+cout<<"Cantidad de papas";cin>>p;
+
+cout<<"Cantidad de sodas";cin>>s;
+
+int th,thq,tp;
+
+float ts,T;
+
+th=h*3;
+
+thq=hq*5;
+
+tp=p*2;
+
+ts=s*2.5;
+
+T=th+thq+tp+ts;
+
+cout<<" ITEM Cantidad Total Parcial"<<endl;
+
+cout<<" Hamburguesas (3Bs) "<<h<<" "<<th<<endl;
+
+cout<<" Hamburguesas con queso(5Bs) "<<hq<<" "<<thq<<endl;
+
+cout<<" Papas(2bs) "<<p<<" "<<tp<<endl;
+
+cout<<" Sodas(2.5Bs) "<<s<<" "<<ts<<endl;
+
+cout<<" TOTAL "<<T<<endl;
+
+system ("pause");
+
+return 0;
+
+} 
