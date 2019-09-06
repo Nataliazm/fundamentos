@@ -1,0 +1,17 @@
+{
+
+int h,m,s;
+
+cout<< "Ingrese la hora, ,minuto, y segundo: ";
+
+cin>>h>>m>>s;
+
+if (h>=12){h=h-12; cout<<h<<":"<<m<<":"<<s<<":"<<"P.M."<<endl;}
+
+else {cout<<h<<":"<<m<<":"<<s<<":"<<"A.M."<<endl;}
+
+system ("pause");
+
+return 0;
+
+} 
