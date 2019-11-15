@@ -1,0 +1,39 @@
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+float calculodearea(float x);
+float calculodelperimetro (float P);
+float calculodelvolumen (float V);
+void main()
+{float A,r,P,V;
+
+	cout<<"Ingrese el radio de la circunferencia:"<<endl;
+	cin>>r;
+	cout<<"--------------MENU------------"<<endl;
+	cout<<"1.Calculo del perimetro"<<P<<endl;
+	cout<<"2.Calculo del volumen"<<V<<endl;
+	cout<<"3.Calculo del area"<<A<<endl;
+	cout<<"4.Fin"<<endl;
+
+	A=calculodearea (r);//LLamada a la funcion
+	cout<<"El area de la circunferencia es:"<<A<<endl;
+	P=calculodelperimetro (P);
+
+
+
+	getch();
+}
+
+float calculodearea(float x)
+	{float A;
+		A=3.141516*(x*x);
+			return A;}
+float calculodelperimetro (float P)
+	{float P;
+		P=2*3.1415*r
+			return P;}
+float calculodelvolumen (float V)
+	{float V;
+		V=(4*3.1415*(r*r*r))/3
