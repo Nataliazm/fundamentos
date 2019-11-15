@@ -1,0 +1,25 @@
+// calculo del area.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+float calculodearea(float x);
+
+void main()
+{float A,r;
+
+	cout<<"Ingrese el radio de la circunferencia:"<<endl;
+	cin>>r;
+	A=calculodearea (r);//LLamada a la funcion
+	cout<<"El area de la circunferencia es:"<<A<<endl;
+
+	getch();
+}
+
+float calculodearea(float x)
+{float A;
+A=3.141516*(x*x);
+return A;}
